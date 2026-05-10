@@ -15,15 +15,15 @@ My background is directly relevant. I build measurement tools for AI systems: sq
 ### Data and Method
 
 **Primary dataset:** Weval evaluation scores across 100+ blueprints and 112+ model configurations, including blueprint metadata (task type, rubric structure, prompt framing, social complexity category).  
-**Secondary dataset:** Global Dialogues (Rounds 1–7) as an external reference frame - to test whether blueprints covering topics that publics rate as high-stakes (AI in healthcare, criminal justice, political content) show systematically different variance profiles than lower-salience domains.
+**Secondary dataset:** Global Dialogues (Rounds 1-4) as an external reference frame - to test whether blueprints covering topics that publics rate as high-stakes (AI in healthcare, criminal justice, political content) show systematically different variance profiles than lower-salience domains.
 
-**Phase 1 - Variance decomposition (Months 1–2):**  
+**Phase 1 - Variance decomposition (Months 1-2):**  
 Fit a mixed-effects model partitioning Weval score variance into model-level, blueprint-level, and interaction components. Cluster blueprints by observable design features. Measure whether blueprint cluster membership predicts score variance independently of model identity.
 
-**Phase 2 - Design feature analysis (Months 2–3):**  
+**Phase 2 - Design feature analysis (Months 2-3):**  
 Identify which specific blueprint features (rubric granularity, prompt framing, presence of socially contested content) are most strongly associated with high inter-model variance. Produce a ranked feature importance analysis.
 
-**Phase 3 - Governance implications (Months 4–6):**  
+**Phase 3 - Governance implications (Months 4-6):**  
 Cross-reference high-variance evaluation domains with Global Dialogues data on which AI governance topics publics care most about. Assess whether community contributors are building evaluations in the domains that matter most to global publics - and whether those blueprints are structurally sound.
 
 ### Impact and Novelty
